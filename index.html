@@ -27,7 +27,7 @@
     <!-- Responsive -->
     <link rel="stylesheet" href="assets/css/responsive.min.css">
 
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     
 </head>
@@ -39,9 +39,10 @@
             <div class="menu-bar v2">
                 <div class="container">
                     <div class="menu-bar-content">
-                        <div class="menu-logo">
-                            <a href="index.html">
-                                <img src="assets/img/logo/logo-3.svg" alt="logo">
+                        <div class="menu-logo d-flex align-items-center flex-nowrap">
+                            <a href="index.html" class="d-flex align-items-center gap-1 flex-nowrap">
+                                <img src="assets/img/logo/logo-3.svg" alt="logo" class="logo-img" style="height:35px;">
+                                <span class="text-2 text-bold text-orange" style="font-size:14px; white-space: nowrap;">Web Developer</span>
                             </a>
                         </div>
                         <div class="menu-right">
@@ -108,13 +109,13 @@
                                     </div>
                                 </div>
                                 <ul class="social-link">
-                                    <li><a href="https://www.facebook.com/profile.php?id=100070522362869"><i class="my-icon icon-facebook"></i></a>
+                                    <li><a href="https://www.facebook.com/share/1GUFQziobz/"><i class="my-icon icon-facebook"></i></a>
                                     </li>
-                                    <li><a href="#"><i class="my-icon icon-twitter"></i></a>
+                                    <li><a href="https://x.com/MasudRana175410"><i class="my-icon icon-twitter"></i></a>
                                     </li>
-                                    <li><a href="https://www.instagram.com/programmermasud/k"><i class="my-icon icon-instagram"></i></a>
+                                    <li><a href="https://www.instagram.com/masudranahc/"><i class="my-icon icon-instagram"></i></a>
                                     </li>
-                                    <li><a href="#"><i class="my-icon icon-linkedin-in"></i></a>
+                                    <li><a href="https://www.linkedin.com/in/masudranahc/"><i class="my-icon icon-linkedin-in"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -140,38 +141,60 @@
             <section class="banner bg-cover-center v2 pt-50 pb-50 pt-md-70 pb-md-70 pt-lg-100 pb-lg-100 pt-xl-200 pb-xl-200" data-background="assets/img/banner/v2/bg-1.jpg" id="banner">
                 <div class="container">
                     <div class="row align-items-center">
+                        
+                        <!-- Profile Image -->
                         <div class="col-lg-5 col-xl-4 order-lg-1">
-                            <div class="profile-img wow animate__zoomIn" data-wow-delay="'0.1s" data-wow-offset="20" data-wow-duration="0.8s">
-                                <img src="assets/img/banner/v2/masud.jpg" class="round-cicrle" alt="profile">
+                            <div class="profile-img wow animate__zoomIn" data-wow-delay="0.1s" data-wow-offset="20" data-wow-duration="0.8s">
+                                <img src="assets/img/banner/v2/masud.jpeg" class="round-circle img-fluid shadow-lg" alt="profile">
                             </div>
                         </div>
+
+                        <!-- Banner Content -->
                         <div class="col-lg-7 col-xl-8">
                             <div class="banner-content">
                                 <h4 class="text-4 text-medium">Hi There</h4>
                                 <h2 class="text-w-2 text-capital text-bold">I’m <span class="text-orange">Masud Rana</span></h2>
-                                <p class="text-para-1 text-medium">I design websites using Django and Python. Be kind when you communicate with me.</p>
+                                <p class="text-para-1 text-medium">I design websites using Django, React & Python. Let’s build something amazing together.</p>
+
+                                <!-- Buttons -->
                                 <ul class="all-btns mt-30 mt-xl-50">
-                                    <li><a href="#contact" class="link-anime v3 text-capital round-border-small">Contact Me</a>                                   </a>
-                                    </li>
-                                    <li><a href="#services" class="link-anime v4 text-capital round-border-small">My Services</a>
-                                    </li>
+                                    <li><a href="#contact" class="link-anime v3 text-capital round-border-small">Contact Me</a></li>
+                                    <li><a href="#services" class="link-anime v4 text-capital round-border-small">My Services</a></li>
                                 </ul>
-                                <ul class="banner-social">
-                                    <li><a href="#">Linkedin</a>
+
+                                <!-- Social Icons -->
+                                <ul class="banner-social mt-30 list-unstyled d-flex gap-3">
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/masudranahc/" target="_blank" class="text-white fs-5 hover:text-orange">
+                                            <i class="fab fa-linkedin"></i>
+                                        </a>
                                     </li>
-                                    <li><a href="https://www.instagram.com/isjahan2885/?igsh=ejkyNjcxdjBvbTBk">Instagram</a>
+                                    <li>
+                                        <a href="https://www.instagram.com/masudranahc/" target="_blank" class="text-white fs-5 hover:text-orange">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
                                     </li>
-                                    <li><a href="#">Twitter</a>
+                                    <li>
+                                        <a href="https://x.com/MasudRana175410" target="_blank" class="text-white fs-5 hover:text-orange">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
                                     </li>
-                                    <li><a href="https://www.facebook.com/profile.php?id=100038103316341&mibextid=ZbWKwL">Facebook</a>
+                                    <li>
+                                        <a href="https://www.facebook.com/share/1GUFQziobz/" target="_blank" class="text-white fs-5 hover:text-orange">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
             <!-- Banner End -->
+
+            <!-- Font Awesome CDN -->
+
             <!-- Fun Facts Start -->
             <section class="fun-facts v1 pt-50 pt-md-70 pt-xl-100 pt-xxl-130">
                 <div class="container">
@@ -200,226 +223,227 @@
             </section>
             <!-- Fun Facts End -->
             <!-- About Start -->
-            <section class="about-us v2 pt-50 pb-50 pt-md-70 pb-md-70 pt-xl-100 pb-xl-100 pb-xxl-130" id="about-us">
+            <section class="about-us v2 pt-50 pb-50 pt-md-70 pb-md-70 pt-xl-100 pb-xl-100 pt-xxl-130 pb-xxl-130" id="about-us">
                 <div class="container">
                     <div class="row align-items-center">
+                        
+                        <!-- Profile Image -->
                         <div class="col-lg-6 col-xl-5">
                             <div class="about-img wow animate__fadeInUp" data-wow-delay="0.1s" data-wow-offset="0" data-wow-duration="0.8s">
-                                <img src="assets/img/about/v2/masud.jpg" alt="profile-img">
+                                <img src="assets/img/about/v2/masud.jpeg" alt="profile-img" class="img-fluid rounded-xl shadow-lg">
                             </div>
                         </div>
+                        
+                        <!-- About Content + Skills -->
                         <div class="col-lg-6 col-xl-7">
                             <div class="about-content">
+                                
+                                <!-- About Text -->
                                 <div class="section-title v2">
                                     <h2 class="text-w-2">Read About Me</h2>
-                                    <p class="text-para-1">My name is Masud Rana, and I'm a talented web designer and developer that specializes in using Flask, Django Rest Framework, and Python Django to create dynamic websites and applications. I create responsive and user-friendly interfaces using Bootstrap and contemporary frameworks like Vue.js and React. My proficiency encompasses server administration and API integration, guaranteeing optimal functionality and performance.
+                                    <p class="text-para-1">
+                                        I'm Masud Rana, a web designer & developer specializing in Flask, Django Rest Framework, React, and Python Django.  
+                                        I create responsive, SEO-friendly, and user-friendly interfaces with Bootstrap, Vue.js, and React.  
+                                        My expertise includes server management, API integration, and front-end React development to ensure optimal performance.
+                                    </p>
+                                </div>
 
-                                        To boost search engine visibility and user experience, I place a high priority on clean, SEO-friendly code. I also offer MySQL database management and WordPress website construction services. I provide my clients with results-driven solutions by being dedicated to quality and creativity.
-                                        </p>
+                                <!-- Skills Section -->
+                                <div class="row mt-4">
+                                    <!-- Skill 1 -->
+                                    <div class="col-md-6 mb-3">
+                                        <p class="text-para-1 mb-1">Python</p>
+                                        <div class="progress" style="height: 8px;">
+                                            <div class="progress-bar bg-orange" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Skill 2 -->
+                                    <div class="col-md-6 mb-3">
+                                        <p class="text-para-1 mb-1">Django</p>
+                                        <div class="progress" style="height: 8px;">
+                                            <div class="progress-bar bg-orange" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
 
-                               </div>
-                                <ul class="skill-list">
-                                    <li>
-                                        <div class="my-progress-bar">
-                                            <p class="text-para-1">Python</p>
-                                            <div class="progress-vale" data-progress-min-width="0" data-progress-max-width="95" data-progress-duration="1400" data-progress-delay="100"><span class="counter" data-count-min="10" data-count-max="75" data-count-duration="1400" data-count-delay="100">95%</span>
-                                            </div>
+                                    <!-- Skill 3 -->
+                                    <div class="col-md-6 mb-3">
+                                        <p class="text-para-1 mb-1">React</p>
+                                        <div class="progress" style="height: 8px;">
+                                            <div class="progress-bar bg-orange" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
-                                    </li>                               
-                                    <li>
-                                        <div class="my-progress-bar">
-                                            <p class="text-para-1">Django</p>
-                                            <div class="progress-vale" data-progress-min-width="0" data-progress-max-width="95" data-progress-duration="1400" data-progress-delay="100"><span class="counter" data-count-min="10" data-count-max="60" data-count-duration="1400" data-count-delay="100">95%</span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                   
-                                    <li>
-                                        <div class="my-progress-bar">
-                                            <p class="text-para-1">Django Rest Framework</p>
-                                            <div class="progress-vale" data-progress-min-width="0" data-progress-max-width="95" data-progress-duration="1400" data-progress-delay="100"><span class="counter" data-count-min="10" data-count-max="65" data-count-duration="1400" data-count-delay="100">95%</span>
-                                            </div>
-                                        </div>
-                                    </li>
+                                    </div>
 
-                                    <li>
-                                        <div class="my-progress-bar">
-                                            <p class="text-para-1">HTML</p>
-                                            <div class="progress-vale" data-progress-min-width="0" data-progress-max-width="95" data-progress-duration="1400" data-progress-delay="100"><span class="counter" data-count-min="10" data-count-max="90" data-count-duration="1400" data-count-delay="100">95%</span>
-                                            </div>
+                                    <!-- Skill 4 -->
+                                    <div class="col-md-6 mb-3">
+                                        <p class="text-para-1 mb-1">JavaScript</p>
+                                        <div class="progress" style="height: 8px;">
+                                            <div class="progress-bar bg-orange" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
-                                    </li>
+                                    </div>
 
-                                    <li>
-                                        <div class="my-progress-bar">
-                                            <p class="text-para-1">CSS</p>
-                                            <div class="progress-vale" data-progress-min-width="0" data-progress-max-width="95" data-progress-duration="1400" data-progress-delay="100"><span class="counter" data-count-min="10" data-count-max="90" data-count-duration="1400" data-count-delay="100">95%</span>
-                                            </div>
+                                    <!-- Skill 5 -->
+                                    <div class="col-md-6 mb-3">
+                                        <p class="text-para-1 mb-1">Front-End Development</p>
+                                        <div class="progress" style="height: 8px;">
+                                            <div class="progress-bar bg-orange" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
-                                    </li>
+                                    </div>
 
-                                    <li>
-                                        <div class="my-progress-bar">
-                                            <p class="text-para-1">JavaScript</p>
-                                            <div class="progress-vale" data-progress-min-width="0" data-progress-max-width="90" data-progress-duration="1400" data-progress-delay="100"><span class="counter" data-count-min="10" data-count-max="90" data-count-duration="1400" data-count-delay="100">90%</span>
-                                            </div>
+                                    <!-- Skill 6 -->
+                                    <div class="col-md-6 mb-3">
+                                        <p class="text-para-1 mb-1">Back-End Development</p>
+                                        <div class="progress" style="height: 8px;">
+                                            <div class="progress-bar bg-orange" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
-                                    </li>
-                                    <li>
-                                        <div class="my-progress-bar">
-                                            <p class="text-para-1">HTMX</p>
-                                            <div class="progress-vale" data-progress-min-width="0" data-progress-max-width="90" data-progress-duration="1400" data-progress-delay="100"><span class="counter" data-count-min="10" data-count-max="90" data-count-duration="1400" data-count-delay="100">90%</span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="my-progress-bar">
-                                            <p class="text-para-1">Front-End Developer</p>
-                                            <div class="progress-vale" data-progress-min-width="0" data-progress-max-width="95" data-progress-duration="1400" data-progress-delay="100"><span class="counter" data-count-min="10" data-count-max="90" data-count-duration="1400" data-count-delay="100">95%</span>
-                                            </div>
-                                        </div>
-                                    </li>
+                                    </div>
 
-                                    <li>
-                                        <div class="my-progress-bar">
-                                            <p class="text-para-1">Back-End Developer</p>
-                                            <div class="progress-vale" data-progress-min-width="0" data-progress-max-width="95" data-progress-duration="1400" data-progress-delay="100"><span class="counter" data-count-min="10" data-count-max="90" data-count-duration="1400" data-count-delay="100">95%</span>
-                                            </div>
+                                    <!-- Skill 7 -->
+                                    <div class="col-md-6 mb-3">
+                                        <p class="text-para-1 mb-1">API Integration</p>
+                                        <div class="progress" style="height: 8px;">
+                                            <div class="progress-bar bg-orange" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
-                                    </li>
-                                    <li>
-                                        <div class="my-progress-bar">
-                                            <p class="text-para-1">API</p>
-                                            <div class="progress-vale" data-progress-min-width="0" data-progress-max-width="90" data-progress-duration="1400" data-progress-delay="100"><span class="counter" data-count-min="10" data-count-max="90" data-count-duration="1400" data-count-delay="100">90%</span>
-                                            </div>
+                                    </div>
+
+                                    <!-- Skill 8 -->
+                                    <div class="col-md-6 mb-3">
+                                        <p class="text-para-1 mb-1">PHP & MySQL</p>
+                                        <div class="progress" style="height: 8px;">
+                                            <div class="progress-bar bg-orange" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
-                                    </li>
-                                    <li>
-                                        <div class="my-progress-bar">
-                                            <p class="text-para-1">PHP & MYSQL</p>
-                                            <div class="progress-vale" data-progress-min-width="0" data-progress-max-width="90" data-progress-duration="1400" data-progress-delay="100"><span class="counter" data-count-min="10" data-count-max="90" data-count-duration="1400" data-count-delay="100">90%</span>
-                                            </div>
+                                    </div>
+
+                                    <!-- Skill 9 -->
+                                    <div class="col-md-6 mb-3">
+                                        <p class="text-para-1 mb-1">Flask</p>
+                                        <div class="progress" style="height: 8px;">
+                                            <div class="progress-bar bg-orange" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
-                                    </li>
-                                    <li>
-                                        <div class="my-progress-bar">
-                                            <p class="text-para-1">Flask</p>
-                                            <div class="progress-vale" data-progress-min-width="0" data-progress-max-width="95" data-progress-duration="1400" data-progress-delay="100"><span class="counter" data-count-min="10" data-count-max="90" data-count-duration="1400" data-count-delay="100">95%</span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
+                                    </div>
+                                </div>
+                                <!-- End Skills -->
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
-            <!-- About End -->
+
             <!-- Services Start -->
-            <section class="services v2 pt-50 pb-50 pt-md-70 pb-md-70 pt-xl-100 pb-xl-100 pt-xxl-130 pb-xxl-130" id="services">
+           <section class="services v2 pt-50 pb-50 pt-md-70 pb-md-70 pt-xl-100 pb-xl-100 pt-xxl-130 pb-xxl-130" id="services">
                 <div class="container">
+                    <!-- Section Title -->
                     <div class="section-title-center v2">
                         <h2 class="text-w-2">My Services</h2>
-                        <p class="text-para-1">Expertise: With a wealth of full-stack development, database administration, and IT consulting experience, I offer technically sound and long-lasting solutions.
-                            Customization: Each solution I offer is made to fit the particular needs of your company, guaranteeing that it supports your objectives and yields measurable outcomes.
-                            Dependability: I promise to provide top-notch solutions on schedule and within your allocated budget, guaranteeing the greatest results for your company.
+                        <p class="text-para-1">
+                            I specialize in full-stack development, database administration, and IT consulting.  
+                            Each solution I deliver is customized to meet your unique business goals, ensuring scalability, performance, and measurable outcomes.  
+                            With a focus on reliability and timely delivery, I provide high-quality results within budget to drive your success.
                         </p>
                     </div>
+
+                    <!-- Services Grid -->
                     <div class="row justify-content-center mt-50 mt-xl-60">
+
+                        <!-- Web Development -->
                         <div class="col-md-6 col-xl-4">
                             <div class="services-card wow animate__fadeInUp" data-wow-delay="0.1s" data-wow-offset="20" data-wow-duration="0.8s">
-                                <div class="card-icon"><i class="my-icon icon-design-tool"></i>
-                                </div>
-                                <ul class="shap-bouns">
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
+                                <div class="card-icon"><i class="my-icon icon-design-tool"></i></div>
+                                <ul class="shap-bouns"><li></li><li></li><li></li></ul>
                                 <h4 class="text-4">Web Development</h4>
-                                <p class="text-para-1">I provide web development services that leverage Vue.js, React, Bootstrap, and Python (Django, Flask) to build user-friendly, responsive websites. I specialize on clean, SEO-friendly code and have experience with both front-end and back-end development. In order to guarantee flawless performance and the best possible user experience, I also specialize in server management, MySQL database administration, and API integration.</p><a href="#" class="serv-link"><i class="my-icon icon-arrow-right"></i></a>
+                                <p class="text-para-1">
+                                    I build responsive and SEO-friendly websites using React, Vue.js, Bootstrap, Django, and Flask.  
+                                    From front-end to back-end, I ensure smooth performance, secure API integration, and MySQL database management.
+                                </p>
+                                <a href="#" class="serv-link"><i class="my-icon icon-arrow-right"></i></a>
                             </div>
                         </div>
+
+                        <!-- Web Design -->
                         <div class="col-md-6 col-xl-4">
                             <div class="services-card wow animate__fadeInUp" data-wow-delay="0.3s" data-wow-offset="20" data-wow-duration="0.8s">
-                                <div class="card-icon"><i class="my-icon icon-design-tool-2"></i>
-                                </div>
-                                <ul class="shap-bouns">
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
+                                <div class="card-icon"><i class="my-icon icon-design-tool-2"></i></div>
+                                <ul class="shap-bouns"><li></li><li></li><li></li></ul>
                                 <h4 class="text-4">Web Design</h4>
-                                <p class="text-para-1">My web design services are centered on making websites that are aesthetically pleasing, responsive, and easy to use. Using cutting-edge frameworks like React, Bootstrap, and Vue.js, I guarantee simple, user-friendly designs that improve user experience. My designs help businesses stand out online since they are optimized for SEO and mobile devices.</p><a href="#" class="serv-link"><i class="my-icon icon-arrow-right"></i></a>
+                                <p class="text-para-1">
+                                    Clean, user-friendly, and visually appealing designs built with React, Vue.js, and Bootstrap.  
+                                    My designs enhance user experience and are fully optimized for mobile and SEO.
+                                </p>
+                                <a href="#" class="serv-link"><i class="my-icon icon-arrow-right"></i></a>
                             </div>
                         </div>
+
+                        <!-- App Development -->
                         <div class="col-md-6 col-xl-4">
                             <div class="services-card wow animate__fadeInUp" data-wow-delay="0.5s" data-wow-offset="20" data-wow-duration="0.8s">
-                                <div class="card-icon"><i class="my-icon icon-design-page"></i>
-                                </div>
-                                <ul class="shap-bouns">
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
+                                <div class="card-icon"><i class="my-icon icon-design-page"></i></div>
+                                <ul class="shap-bouns"><li></li><li></li><li></li></ul>
                                 <h4 class="text-4">App Development</h4>
-                                <p class="text-para-1">I'm an expert in creating scalable, high-performance applications with Python (Django, Flask), Vue.js, React, and APIs. My services encompass both mobile and online apps, providing smooth user experience, responsive design, and solid back-end infrastructure. Every software is designed to fulfill particular business requirements.
-                                    </p><a href="#" class="serv-link"><i class="my-icon icon-arrow-right"></i></a>
+                                <p class="text-para-1">
+                                    Scalable and high-performance applications built with Django, Flask, React, and REST APIs.  
+                                    I deliver mobile-friendly, responsive apps with robust backend infrastructure.
+                                </p>
+                                <a href="#" class="serv-link"><i class="my-icon icon-arrow-right"></i></a>
                             </div>
                         </div>
+
+                        <!-- Server Administration -->
                         <div class="col-md-6 col-xl-4">
                             <div class="services-card wow animate__fadeInUp" data-wow-delay="0.1s" data-wow-offset="20" data-wow-duration="0.8s">
-                                <div class="card-icon"><i class="my-icon icon-brain"></i>
-                                </div>
-                                <ul class="shap-bouns">
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-                                <h4 class="text-4">Server Administrator</h4>
-                                <p class="text-para-1">I am an expert in managing Linux servers as a server administrator, making sure they run smoothly and securely. I offer server configuration, monitoring, optimization, and troubleshooting in addition to effective web application deployment and upkeep. My emphasis lies on dependable infrastructure and smooth operations.
-                                    
-                                </p><a href="#" class="serv-link"><i class="my-icon icon-arrow-right"></i></a>
+                                <div class="card-icon"><i class="my-icon icon-brain"></i></div>
+                                <ul class="shap-bouns"><li></li><li></li><li></li></ul>
+                                <h4 class="text-4">Server Administration</h4>
+                                <p class="text-para-1">
+                                    Expert in Linux server management including configuration, monitoring, optimization, and deployment.  
+                                    I ensure secure, reliable, and smooth server operations for your applications.
+                                </p>
+                                <a href="#" class="serv-link"><i class="my-icon icon-arrow-right"></i></a>
                             </div>
                         </div>
+
+                        <!-- Database Technologies -->
                         <div class="col-md-6 col-xl-4">
                             <div class="services-card wow animate__fadeInUp" data-wow-delay="0.3s" data-wow-offset="20" data-wow-duration="0.8s">
-                                <div class="card-icon"><i class="my-icon icon-data-analytics"></i>
-                                </div>
-                                <ul class="shap-bouns">
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
+                                <div class="card-icon"><i class="my-icon icon-data-analytics"></i></div>
+                                <ul class="shap-bouns"><li></li><li></li><li></li></ul>
                                 <h4 class="text-4">Database Technologies</h4>
-                                <p class="text-para-1">I provide database administration services, with a focus on relational databases like MySQL. Secure data storage, database architecture, and optimization are among my areas of competence. To promote scalability and reliability, I guarantee effective data management, query performance, and smooth integration with web applications.
-                                    .</p><a href="#" class="serv-link"><i class="my-icon icon-arrow-right"></i></a>
+                                <p class="text-para-1">
+                                    Specialized in MySQL database design, optimization, and secure data storage.  
+                                    I provide efficient data management and seamless integration with applications for scalability.
+                                </p>
+                                <a href="#" class="serv-link"><i class="my-icon icon-arrow-right"></i></a>
                             </div>
                         </div>
+
+                        <!-- Consultancy -->
                         <div class="col-md-6 col-xl-4">
                             <div class="services-card wow animate__fadeInUp" data-wow-delay="0.5s" data-wow-offset="20" data-wow-duration="0.8s">
-                                <div class="card-icon"><i class="my-icon icon-analysis"></i>
-                                </div>
-                                <ul class="shap-bouns">
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
+                                <div class="card-icon"><i class="my-icon icon-analysis"></i></div>
+                                <ul class="shap-bouns"><li></li><li></li><li></li></ul>
                                 <h4 class="text-4">Consultancy</h4>
-                                <p class="text-para-1">I offer consulting services with an emphasis on IT strategy, web development, and app development. With a background in server administration, Flask, Django, React, and Python, I assist companies in streamlining operations, maximizing technology, and putting customized solutions into place that spur productivity and growth.
-                                    </p><a href="#" class="serv-link"><i class="my-icon icon-arrow-right"></i></a>
+                                <p class="text-para-1">
+                                    Providing IT strategy, web, and app development consultancy.  
+                                    With expertise in Django, Flask, React, and server administration, I guide businesses in implementing custom, growth-driven solutions.
+                                </p>
+                                <a href="#" class="serv-link"><i class="my-icon icon-arrow-right"></i></a>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
+
             <!-- Services End -->
-            <!-- Awesome Journey Start -->
+           <!-- Awesome Journey Start -->
             <section class="awesome-journey v1 pt-50 pb-50 pt-md-70 pb-md-70 pt-xl-100 pb-xl-100 pt-xxl-130 pb-xxl-130">
                 <div class="container">
                     <div class="section-title-center v2">
                         <h2 class="text-w-2">My Awesome Journey</h2>
-                        <p class="text-para-1">My Awesome Journey is a chapter I want to add to my portfolio, encapsulating brief anecdotes of my successes</p>
+                        <p class="text-para-1">A chapter of my portfolio highlighting milestones and professional experiences in web development and design.</p>
                     </div>
+
+                    <!-- Tabs -->
                     <ul class="awesome-journey-btns mt-50 mt-xl-60" role="tablist">
                         <li>
                             <button class="tab-btn btn-anime text-capital round-border-small v4 active" id="my-education-1-tab" data-bs-toggle="tab" data-bs-target="#my-education-1">My Education</button>
@@ -428,45 +452,79 @@
                             <button class="tab-btn btn-anime text-capital round-border-small v4" id="my-experience-2-tab" data-bs-toggle="tab" data-bs-target="#my-experience-2">My Experience</button>
                         </li>
                     </ul>
+
                     <div class="tab-content mt-50 mt-xl-60">
-                        
                         <img class="shap-img-1" src="assets/img/awesome-journey/v1/object-img-1.png" alt="shap-img-1">
                         <img class="shap-img-2" src="assets/img/awesome-journey/v1/object-img-2.png" alt="shap-img-2">
-                        <div class="tab-pane fade show active" id="my-education-1" tabindex="1">
 
+                        <!-- Education Tab -->
+                        <div class="tab-pane fade show active" id="my-education-1" tabindex="1">
                             <ul class="journey-cards">
                                 <li class="wow animate__fadeInUp" data-wow-delay="0.3s" data-wow-offset="20" data-wow-duration="0.8s">
                                     <h4 class="text-4">Bachelor of Sciences</h4>
                                     <h6 class="text-6 text-orange text-medium">(2024 - 2025) - Joradah College</h6>
-                                    <p class="text-para-1">Bachelor of Sciences, Joradah College, 2024–2025: completed a fundamental course in the humanities with an emphasis on the social sciences, literature, and history. Acquired robust analytical and critical thinking competencies in addition to proficient communication skills. This program enhanced perspectives from both a personal and professional standpoint by fostering a deeper awareness of cultural and socioeconomic circumstances..</p>
+                                    <p class="text-para-1">
+                                        Completed a comprehensive program emphasizing social sciences, literature, and history. Developed strong analytical, critical thinking, and communication skills, fostering a well-rounded professional perspective.
+                                    </p>
                                 </li>
-                                <li class="wow animate__fadeInUp" data-wow-delay="0.3s" data-wow-offset="20" data-wow-duration="0.8s">
+                                <li class="wow animate__fadeInUp" data-wow-delay="0.5s" data-wow-offset="20" data-wow-duration="0.8s">
                                     <h4 class="text-4">Pakhimara Secondary School</h4>
-                                    <h6 class="text-6 text-orange text-medium">(203-208) - Parsons, - Pakhimara Secondary School</h6>
-                                    <p class="text-para-1">Pakhimara Secondary School - Parsons (2023–2024) completed their early education, concentrating on core courses like science, math, and language. Participated actively in class activities and school events to develop critical intellectual and social skills. This phase established the foundation for subsequent scholastic successes and individual growth.</p>
+                                    <h6 class="text-6 text-orange text-medium">(2013 - 2018) - Pakhimara Secondary School</h6>
+                                    <p class="text-para-1">
+                                        Focused on core subjects like Science, Math, and Languages while actively participating in school activities. Built the foundation for academic excellence and personal growth.
+                                    </p>
                                 </li>
                             </ul>
-                            
                         </div>
+
+                        <!-- Experience Tab -->
                         <div class="tab-pane fade" id="my-experience-2" tabindex="1">
                             <ul class="journey-cards">
+
+                                <!-- Back-End Developer -->
                                 <li class="wow animate__fadeInUp" data-wow-delay="0.1s" data-wow-offset="20" data-wow-duration="0.8s">
                                     <h4 class="text-4">Back-End Developer</h4>
-                                    <h6 class="text-6 text-orange text-medium">(2023 - Present) -Mohuls Soft Limited</h6>
-                                    <p class="text-para-1">Back-End Developer at Mohuls Soft Limited (2023–present): With a focus on server-side logic and database administration, I use Flask, Django, and Python to create dependable, scalable web applications. I ensure seamless API integration, optimize system performance, and collaborate closely with front-end teams to deliver secure, efficient, and high-performance solutions tailored to client needs.</p>
+                                    <h6 class="text-6 text-orange text-medium">(2023 - Present) - Mohuls Soft Limited</h6>
+                                    <p class="text-para-1">
+                                        Developed scalable web applications with Flask, Django, and Python. Focused on server-side logic, database management, API integration, and optimizing system performance while collaborating with front-end teams for seamless delivery.
+                                    </p>
                                 </li>
+
+                                <!-- Full Stack Web Developer -->
                                 <li class="wow animate__fadeInUp" data-wow-delay="0.3s" data-wow-offset="20" data-wow-duration="0.8s">
                                     <h4 class="text-4">Full Stack Web Developer</h4>
-                                    <h6 class="text-6 text-orange text-medium">2023-2024 - Parsons,  Mohuls Soft Limited</h6>
-                                    <p class="text-para-1">Full Stack Web Developer, Parsons, KMohuls Soft Limited, Jhenaidah, 201–2024: created end-to-end web apps with JavaScript, Django, Vue.js, and Python. Oversaw the development of both the front and back ends, making sure that security, performance, and integration were all done seamlessly. worked with cross-functional teams to create user-friendly, responsive websites with an emphasis on best practices, scalability, and clean code.</p>
+                                    <h6 class="text-6 text-orange text-medium">(2023 - 2024) - Parsons, Mohuls Soft Limited</h6>
+                                    <p class="text-para-1">
+                                        Built end-to-end web applications using Django, Python, Vue.js, React, and JavaScript. Delivered responsive, secure, and scalable solutions by managing both front-end and back-end development and ensuring best practices.
+                                    </p>
                                 </li>
-                                <li class="wow animate__fadeInUp" data-wow-delay="0.1s" data-wow-offset="20" data-wow-duration="0.8s">
+
+                                <!-- React Developer -->
+                                <li class="wow animate__fadeInUp" data-wow-delay="0.5s" data-wow-offset="20" data-wow-duration="0.8s">
+                                    <h4 class="text-4">React Developer</h4>
+                                    <h6 class="text-6 text-orange text-medium">(2022 - 2023) - Freelance Projects</h6>
+                                    <p class="text-para-1">
+                                        Developed interactive and dynamic user interfaces with React.js. Focused on component-based architecture, state management (Redux/Context API), API integration, performance optimization, and responsive design for modern web applications.
+                                    </p>
+                                </li>
+
+                                <!-- Web Designer -->
+                                <li class="wow animate__fadeInUp" data-wow-delay="0.7s" data-wow-offset="20" data-wow-duration="0.8s">
                                     <h4 class="text-4">Web Designer</h4>
                                     <h6 class="text-6 text-orange text-medium">(2023 - 2024) - Design Habi</h6>
-                                    <p class="text-para-1">Web Designer (2023–2024) at Design Habi: Used HTML, CSS, and JavaScript to create aesthetically pleasing and user-friendly websites. centered on improving user experience and using responsive design. worked in tandem with clients to comprehend their requirements and provide tailored solutions, all the while guaranteeing cross-browser compatibility and conformity to contemporary design standards.</p>
+                                    <p class="text-para-1">
+                                        Designed visually appealing and responsive websites with HTML, CSS, and JavaScript. Enhanced user experience, ensured cross-browser compatibility, and delivered modern, client-focused design solutions.
+                                    </p>
                                 </li>
+
                             </ul>
                         </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- Awesome Journey End -->
+
                        
             <!-- Latest Project Start -->
             <section class="latest-project v2 pt-50 pb-50 pt-md-70 pb-md-70 pt-xl-100 pb-xl-100 pt-xxl-130 pb-xxl-130" id="project">
@@ -608,117 +666,34 @@
                 </div>
             </section>
             <!-- Testimonial End -->
-            <!-- Our Team Start -->
-            <section class="our-team v1 pt-50 pb-50 pt-md-70 pb-md-70 pt-xl-100 pb-xl-100 pt-xxl-130 pb-xxl-130">
-                <div class="container">
-                    <div class="section-title-center v2">
-                        <h2 class="text-w-2">Team Member</h2>
-                        <p class="text-para-1">We believe that behind every success story, there's a dedicated team driving innovation, creativity, and excellence.</p>
-                    </div>
-                    <div class="row justify-content-center mt-50 mt-xl-60">
-                        <div class="col-md-6 col-xl-3">
-                            <div class="team-card wow animate__fadeInUp" data-wow-delay="0.1s" data-wow-offset="20" data-wow-duration="0.8s">
-                                <div class="team-card-img">
-                                    <ul class="social-link">
-                                        <li><a href="#"><i class="my-icon icon-facebook"></i></a>
-                                        </li>
-                                        <li><a href="#"><i class="my-icon icon-twitter"></i></a>
-                                        </li>
-                                        <li><a href="#"><i class="my-icon icon-linkedin-in"></i></a>
-                                        </li>
-                                    </ul>
-                                    <img src="assets/img/our-team/v2/nazmul.jpg" alt="profile">
-                                </div>
-                                <div class="team-card-text">
-                                    <h5 class="text-5 text-semibold text-capital">Nazmul Hossan</h5>
-                                    <p class="text-para-1 text-medium">Web Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-3">
-                            <div class="team-card wow animate__fadeInUp" data-wow-delay="0.3s" data-wow-offset="20" data-wow-duration="0.8s">
-                                <div class="team-card-img">
-                                    <ul class="social-link">
-                                        <li><a href="#"><i class="my-icon icon-facebook"></i></a>
-                                        </li>
-                                        <li><a href="#"><i class="my-icon icon-twitter"></i></a>
-                                        </li>
-                                        <li><a href="#"><i class="my-icon icon-linkedin-in"></i></a>
-                                        </li>
-                                    </ul>
-                                    <img src="assets/img/our-team/v2/showrov.jpg" alt="profile">
-                                </div>
-                                <div class="team-card-text">
-                                    <h5 class="text-5 text-semibold text-capital">Showrov Islam</h5>
-                                    <p class="text-para-1 text-medium">Web Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-3">
-                            <div class="team-card wow animate__fadeInUp" data-wow-delay="0.5s" data-wow-offset="20" data-wow-duration="0.8s">
-                                <div class="team-card-img">
-                                    <ul class="social-link">
-                                        <li><a href="https://www.facebook.com/profile.php?id=100070522362869"><i class="my-icon icon-facebook"></i></a>
-                                        </li>
-                                        <li><a href="#"><i class="my-icon icon-twitter"></i></a>
-                                        </li>
-                                        <li><a href="#"><i class="my-icon icon-linkedin-in"></i></a>
-                                        </li>
-                                    </ul>
-                                    <img src="assets/img/our-team/v2/rana.jpg" alt="profile">
-                                </div>
-                                <div class="team-card-text">
-                                    <h5 class="text-5 text-semibold text-capital">Masud Rana</h5>
-                                    <p class="text-para-1 text-medium">Django Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-3">
-                            <div class="team-card wow animate__fadeInUp" data-wow-delay="0.7s" data-wow-offset="20" data-wow-duration="0.8s">
-                                <div class="team-card-img">
-                                    <ul class="social-link">
-                                        <li><a href="#"><i class="my-icon icon-facebook"></i></a>
-                                        </li>
-                                        <li><a href="#"><i class="my-icon icon-twitter"></i></a>
-                                        </li>
-                                        <li><a href="#"><i class="my-icon icon-linkedin-in"></i></a>
-                                        </li>
-                                    </ul>
-                                    <img src="assets/img/our-team/v2/ranu.jpg" alt="profile">
-                                </div>
-                                <div class="team-card-text">
-                                    <h5 class="text-5 text-semibold text-capital">Ranu Ali</h5>
-                                    <p class="text-para-1 text-medium">Web Developer</p>
-                                </div>F
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Our Team End -->
-            <!-- News Blog Start -->
+           
+            <!-- Blog / Latest Updates Start -->
             <section class="news-blog v2 pt-50 pb-50 pt-md-70 pb-md-70 pt-xl-100 pb-xl-100 pt-xxl-130 pb-xxl-130" id="blog">
                 <div class="container">
                     <div class="title-left-right align-xl-center">
                         <div class="w-lg-50-0">
                             <div class="section-title v2">
-                                <h2 class="text-w-2">Some framework ideas</h2>
-                                <p class="text-para-1">Welcome to the latest addition news-blog Here, we keep you updated on our most recent news and Blog. We are always eager to share our progress.</p>
+                                <h2 class="text-w-2">Latest Blog & Framework Ideas</h2>
+                                <p class="text-para-1">
+                                    Stay updated with my latest tutorials, project insights, and development tips.  
+                                    Here I share ideas, experiences, and guidance for web development with React, Django, APIs, and more.
+                                </p>
                             </div>
                         </div>
                         <ul class="slider-btns">
                             <li>
-                                <button class="prev-btn"><i class="my-icon icon-angle-left"></i>
-                                </button>
+                                <button class="prev-btn"><i class="my-icon icon-angle-left"></i></button>
                             </li>
                             <li>
-                                <button class="next-btn"><i class="my-icon icon-angle-right"></i>
-                                </button>
+                                <button class="next-btn"><i class="my-icon icon-angle-right"></i></button>
                             </li>
                         </ul>
                     </div>
+
                     <div class="slider mt-50 mt-xl-60">
                         <div class="swiper-wrapper">
+
+                            <!-- Blog Post 1 -->
                             <div class="swiper-slide">
                                 <div class="post-card">
                                     <div class="post-img">
@@ -727,28 +702,27 @@
                                         </a>
                                     </div>
                                     <div class="post-content">
-                                        <h5 class="text-5 text-bold"><a href="blog-details.html">Django can be used to build a wide variety of web applications.</a></h5>
-                                        <p class="text-para-1">Features for product listings, shopping cart, order processing, and payment systems.Task tracking, team collaboration, and deadline management.</p>
+                                        <h5 class="text-5 text-bold">
+                                            <a href="blog-details.html">Building Web Apps with Django</a>
+                                        </h5>
+                                        <p class="text-para-1">
+                                            Explore how to build scalable web applications using Django. Learn about product listings, shopping cart, order processing, and integrating payment systems seamlessly.
+                                        </p>
                                         <ul class="post-info">
                                             <li class="post-user">
                                                 <div class="user-img">
-                                                    <img src="assets/img/news-blog/v1/masud.jpg" alt="blog profile">
+                                                    <img src="assets/img/news-blog/v1/m.jpeg" alt="blog profile">
                                                 </div>
-                                                <p class="text-para-1 font-v3"><a href="#">Masud</a>
-                                                </p>
+                                                <p class="text-para-1 font-v3"><a href="#">Masud</a></p>
                                             </li>
-                                            <li class="post-react"><i class="my-icon icon-heart"></i>
-                                                <p class="text-para-1 font-v3"><a href="#">30</a>
-                                                </p>
-                                            </li>
-                                            <li class="post-comment"><i class="my-icon icon-comments"></i>
-                                                <p class="text-para-1 font-v3"><a href="#">12</a>
-                                                </p>
-                                            </li>
+                                            <li class="post-react"><i class="my-icon icon-heart"></i><p><a href="#">30</a></p></li>
+                                            <li class="post-comment"><i class="my-icon icon-comments"></i><p><a href="#">12</a></p></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- Blog Post 2 -->
                             <div class="swiper-slide">
                                 <div class="post-card">
                                     <div class="post-img">
@@ -757,28 +731,27 @@
                                         </a>
                                     </div>
                                     <div class="post-content">
-                                        <h5 class="text-5 text-bold"><a href="blog-details.html">Django Rest Framework (DRF)</a></h5>
-                                        <p class="text-para-1">With Django Rest Framework, you can quickly and easily build a variety of web APIs tailored to your project's needs. If you have a specific project in mind or need help with a certain aspect</p>
+                                        <h5 class="text-5 text-bold">
+                                            <a href="blog-details.html">Django Rest Framework (DRF) Tips</a>
+                                        </h5>
+                                        <p class="text-para-1">
+                                            Learn to create efficient APIs with Django Rest Framework. Build RESTful endpoints for web and mobile apps, with secure authentication and optimized performance.
+                                        </p>
                                         <ul class="post-info">
                                             <li class="post-user">
                                                 <div class="user-img">
-                                                    <img src="assets/img/news-blog/v1/masud.jpg" alt="blog profile">
+                                                    <img src="assets/img/news-blog/v1/m.jpeg" alt="blog profile">
                                                 </div>
-                                                <p class="text-para-1 font-v3"><a href="#">Masud</a>
-                                                </p>
+                                                <p class="text-para-1 font-v3"><a href="#">Masud</a></p>
                                             </li>
-                                            <li class="post-react"><i class="my-icon icon-heart"></i>
-                                                <p class="text-para-1 font-v3"><a href="#">29</a>
-                                                </p>
-                                            </li>
-                                            <li class="post-comment"><i class="my-icon icon-comments"></i>
-                                                <p class="text-para-1 font-v3"><a href="#">17</a>
-                                                </p>
-                                            </li>
+                                            <li class="post-react"><i class="my-icon icon-heart"></i><p><a href="#">29</a></p></li>
+                                            <li class="post-comment"><i class="my-icon icon-comments"></i><p><a href="#">17</a></p></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- Blog Post 3 -->
                             <div class="swiper-slide">
                                 <div class="post-card">
                                     <div class="post-img">
@@ -787,28 +760,27 @@
                                         </a>
                                     </div>
                                     <div class="post-content">
-                                        <h5 class="text-5 text-bold"><a href="blog-details.html">API (Application Programming Interfaces)</a></h5>
-                                        <p class="text-para-1">API allow different software applications to communicate and share data with each other. For example, a web application might use an API to fetch data from a remote server.</p>
+                                        <h5 class="text-5 text-bold">
+                                            <a href="blog-details.html">Understanding APIs</a>
+                                        </h5>
+                                        <p class="text-para-1">
+                                            APIs enable software communication and data sharing. Learn how to integrate APIs into your web applications for dynamic, real-time functionality.
+                                        </p>
                                         <ul class="post-info">
                                             <li class="post-user">
                                                 <div class="user-img">
-                                                    <img src="assets/img/news-blog/v1/masud.jpg" alt="blog profile">
+                                                     <img src="assets/img/news-blog/v1/m.jpeg" alt="blog profile">
                                                 </div>
-                                                <p class="text-para-1 font-v3"><a href="#">Masud</a>
-                                                </p>
+                                                <p class="text-para-1 font-v3"><a href="#">Masud</a></p>
                                             </li>
-                                            <li class="post-react"><i class="my-icon icon-heart"></i>
-                                                <p class="text-para-1 font-v3"><a href="#">27</a>
-                                                </p>
-                                            </li>
-                                            <li class="post-comment"><i class="my-icon icon-comments"></i>
-                                                <p class="text-para-1 font-v3"><a href="#">15</a>
-                                                </p>
-                                            </li>
+                                            <li class="post-react"><i class="my-icon icon-heart"></i><p><a href="#">27</a></p></li>
+                                            <li class="post-comment"><i class="my-icon icon-comments"></i><p><a href="#">15</a></p></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- Blog Post 4 -->
                             <div class="swiper-slide">
                                 <div class="post-card">
                                     <div class="post-img">
@@ -817,40 +789,47 @@
                                         </a>
                                     </div>
                                     <div class="post-content">
-                                        <h5 class="text-5 text-bold"><a href="blog-details.html">Django Intilisoft</a></h5>
-                                        <p class="text-para-1">Django simplifies form handling with its form framework, allowing easy validation and processing of user input.Django provides a powerful URL routing system, enabling developers to create clean, user-friendly URLs and map them to the appropriate view</p>
+                                        <h5 class="text-5 text-bold">
+                                            <a href="blog-details.html">Django Form & URL Handling</a>
+                                        </h5>
+                                        <p class="text-para-1">
+                                            Simplify form handling and validation with Django forms. Learn URL routing best practices to create clean, SEO-friendly URLs for your applications.
+                                        </p>
                                         <ul class="post-info">
                                             <li class="post-user">
                                                 <div class="user-img">
-                                                    <img src="assets/img/news-blog/v1/masud.jpg" alt="blog profile">
+                                                    <img src="assets/img/news-blog/v1/m.jpeg" alt="blog profile">
                                                 </div>
-                                                <p class="text-para-1 font-v3"><a href="#">Masud</a>
-                                                </p>
+                                                <p class="text-para-1 font-v3"><a href="#">Masud</a></p>
                                             </li>
-                                            <li class="post-react"><i class="my-icon icon-heart"></i>
-                                                <p class="text-para-1 font-v3"><a href="#">20</a>
-                                                </p>
-                                            </li>
-                                            <li class="post-comment"><i class="my-icon icon-comments"></i>
-                                                <p class="text-para-1 font-v3"><a href="#">12</a>
-                                                </p>
-                                            </li>
+                                            <li class="post-react"><i class="my-icon icon-heart"></i><p><a href="#">20</a></p></li>
+                                            <li class="post-comment"><i class="my-icon icon-comments"></i><p><a href="#">12</a></p></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- News Blog End -->
+            <!-- Blog / Latest Updates End -->
+
             <!-- Contact Start -->
             <section class="contact v2 pt-50 pb-50 pt-md-70 pb-md-70 pt-xl-100 pb-xl-100 pt-xxl-130 pb-xxl-130" id="contact">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="bg-img">
-                                <img src="assets/img/contact/v2/map.webp" height="510px" width="500px" alt="bg-img">
+                                <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.901234567!2d90.000123!3d23.000456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x123456789abcdef!2sYour%20Location!5e0!3m2!1sen!2sbd!4v1690000000000!5m2!1sen!2sbd" 
+                                    width="100%" 
+                                    height="510" 
+                                    style="border:0; border-radius:10px;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
                             </div>
                         </div>
                         <div class="col-lg-6">
